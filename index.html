@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <link rel="stylsheet" href="style.css"/>
-            <title>Mana lapa</title>
-        </head>
-    <body>
-        <h1>Lapas nosakums</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Winter Sports World</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="hockey.html">Ice Hockey</a>
+        <a href="skating.html">Figure Skating</a>
+        <a href="skiing.html">Skiing </a>
+    </nav>
+
+    <div class="container"> <h2>About Winter Sports</h2>
+        <p>Winter sports are competitive sports or recreational activities which are played on snow or ice. </p>
+        
+        <p>This website explores three popular disciplines:</p>
+        <ul> <li>Ice Hockey - A fast-paced team sport.</li>
+            <li>Figure Skating - An artistic performance on ice.</li>
+            <li>Skiing - A thrilling race down the slopes.</li>
+        </ul>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Winter Sports Project</p>
+    </footer>
+
+</body>
 </html>
