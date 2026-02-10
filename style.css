@@ -1,0 +1,28 @@
+
+body {
+    background-color: #d1f2ff; 
+    color: #003366;          
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;         
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3 {
+    color: #002b5c;           
+}
+
+
+.container {
+    padding: 15px;
+    font-size: 0.9em;         
+}
+
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 11px;
+}
